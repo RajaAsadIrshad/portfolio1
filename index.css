@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    color: white;
+    padding-left: 25%;
+}
+.navbar li{
+    list-style: none;
+   float: left;
+   padding: 20px;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: yellow
+}
+#name{
+    position: absolute;
+    left: 5%;
+    font-size: x-large;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img{
+    position: absolute;
+    left: 45%;
+    top: 25px;
+    clip-path: circle();
+    border-radius: 50%;
+  }
+.text{
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+     top: 25%;
+    width: 500px;
+    height: 500px;
+   
+}
+#t{
+   color: yellow;
+}
+#n{
+    color: yellow;
+}
+.int{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#btn{
+    color: black;
+    background-color: yellow;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:7px;
+    text-decoration: none;
+}
+#btun
+{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    text-decoration: none;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#btun:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+}
+
+@media screen and (max-width:800px){
+    .img
+    {
+        position: absolute;
+        top: 20%;
+    }
+   .text{
+       position: absolute;
+       right: 40%;
+   } 
+   #name{
+       font-weight: 100;
+   }
+  
+}
+@media screen  and (max-width:600px){
+    .img
+    {
+        position: absolute;
+        top: 30%;
+    }
+
+    .text
+    {
+      font-size: small;
+      position: absolute;
+      right: 25%;
+    }
+    
+    
+}
+@media screen and (max-width:450px) {
+    .img
+    {
+     position: absolute;
+     top: 100%;
+    }
+     img
+    {
+        width: 350px;
+        height: 350px;
+    }
+.text
+{
+        position: absolute;
+        left: 20%;
+        top: 40%;
+      font-size: small;
+    }
+    
+}
